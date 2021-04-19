@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20sp">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/change_name"
+    android:textSize="18sp"
+    android:gravity="center"
+    android:textColor="#000"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:id="@+id/NameEditText"
+        />
+
+    <TextView
+        android:id="@+id/TextViewSave"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/NameEditText"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_fiol"
+        android:text="@string/save"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#ffffff"
+        />
+</RelativeLayout>

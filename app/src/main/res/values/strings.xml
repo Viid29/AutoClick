@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name" translatable="false">AutoClicker</string>
+
+    <string name="app_add_id" translatable="false">ca-app-pub-6700124105298192~9166476216</string>
+    <string name="fullskreen_after_splash" translatable="false">ca-app-pub-6700124105298192/6991739019</string>
+    <string name="fullskreen_in_app" translatable="false">ca-app-pub-6700124105298192/6800167324</string>
+    <string name="banner_in_app" translatable="false">ca-app-pub-6700124105298192/2860922311</string>
+    <string name="appmetrica_key" translatable="false">82b666c7-2529-4b55-8ad4-e4b89f0819fe</string>
+
+
+    <string name="settings_single_tap">Single target settings</string>
+    <string name="settings_multy_tap">Multiple Target Settings</string>
+    <string name="settings_also">Other settings</string>
+    <string name="size_inter_elem">Interface size</string>
+    <string name="not_work">Malfunctions</string>
+    <string name="hide_add">Disable ads</string>
+    <string name="interval">Pressing interval:</string>
+    <string name="millisec">milliseconds</string>
+    <string name="description_1">The interval between each click. Interval less than 40 milliseconds can cause lag</string>
+    <string name="on">Enable</string>
+    <string name="off">Turn off</string>
+    <string name="alert">For the application to work correctly, you must give permission to handle gestures. Click \"Give permission \", then select \"AutoClicker \" in the list and allow access</string>
+    <string name="set_permission">Give a permission</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="save">Save</string>
+    <string name="instruction">Instructions</string>
+    <string name="settings">Settings</string>
+    <string name="inst_text_1">1. Give permission to handle gestures:</string>
+    <string name="inst_text_2">2. Give permission to display on top of other windows:</string>
+    <string name="inst_text_3">3. Set the interval of clicking in \"Settings \"</string>
+    <string name="inst_text_4">4. Interface elements:</string>
+    <string name="opis_0"> Add button. Adds another target to the screen
+Hold to add swipe</string>
+    <string name="opis_1">" the target in the center of which the click occurs. Aim at the desired location and press Play"</string>
+    <string name="opis_2">" Play button. After clicking, it launches clicks and blocks the ability to move around the screen"</string>
+    <string name="opis_3">" Pause button. After pressing, stops clicks and unlocks the movement of the target across the screen"</string>
+    <string name="opis_4">" Exit button. After clicking, completes clicks and opens the application screen"</string>
+    <string name="opis_5">" Settings button. opens clicker settings"</string>
+    <string name="not_work_title_1">If the application does not work, you can disable and enable Access services</string>
+    <string name="not_work_title_2">Sometimes the application is closed by the system. Please give permission for background work, otherwise the application may not work at all. You can try restarting your phone</string>
+    <string name="restart">Restart</string>
+    <string name="target_size">Target size</string>
+    <string name="service_title">Access Services</string>
+    <string name="menu_size">Panel size</string>
+    <string name="stop_when">Stop after:</string>
+    <string name="stop_t1">Execute endlessly</string>
+    <string name="stop_t2">Amount of time</string>
+    <string name="stop_t3">The number of cycles</string>
+    <string name="time_chose">Set time :</string>
+    <string name="change_name">Change preset name</string>
+    <string name="edit_presets">Managing presets</string>
+    <string name="new_preset">New preset</string>
+    <string name="or">or</string>
+    <string name="preset">Preset</string>
+    <string name="error">Something went wrong. Check the settings</string>
+    <string name="ads_title_1">Try it for free without ads</string>
+    <string name="ads_title_2">You can cancel your subscription at any time on Google Play</string>
+    <string name="free">Is free</string>
+    <string name="after">then</string>
+    <string name="month">month</string>
+    <string name="year">year</string>
+    <string name="day_3">3 days free</string>
+    <string name="day_7">7 days free</string>
+    <string name="ads_promo_1_1">Without advertising</string>
+    <string name="ads_promo_1_2">Full access without restrictions</string>
+    <string name="proceed">Proceed</string>
+    <string name="proceed_with_ads">Continue with advertising</string>
+    <string name="choose">Select</string>
+    <string name="tutorial">Manual</string>
+    <string name="tutorial_1_1">1. Give permission to handle gestures</string>
+    <string name="tutorial_1_2">2. Set the interval of pressing and pause in \"Settings \"</string>
+    <string name="tutorial_1_3">3. Click \"Enable \"</string>
+    <string name="tutorial_ok">clear</string>
+    <string name="language">Language</string>
+    <string name="russian" translatable="false">Russian</string>
+    <string name="english" translatable="false">English</string>
+    <string name="japanese" translatable="false">Japanese</string>
+    <string name="korean" translatable="false">Korean</string>
+    <string name="spanish" translatable="false">Spanish</string>
+    <string name="portuguese" translatable="false">Portuguese</string>
+    <string name="french" translatable="false">French</string>
+    <string name="german" translatable="false">German</string>
+    <string name="turkey" translatable="false">Turkish</string>
+    <string name="arabic" translatable="false">Arabic</string>
+    <string name="vietnamese" translatable="false">Vietnamese</string>
+    <string name="info_serv" translatable="false">This application requires the following permissions: \n \ n
+
+Processing your actions; \n
+Get the contents of the window; \n \n
+
+AutoClicker does not collect personally identifiable information</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="random_setting_title">Radius of randomization</string>
+    <string name="random_setting_text">Set the radius in pixels around the target, the coordinates of which will be chosen randomly. If = 0, then the usual coordinates are set. </string>
+    <string name="px" translatable="false">px</string>
+</resources>

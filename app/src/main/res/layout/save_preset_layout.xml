@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20sp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/preset"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-medium"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:id="@+id/NameEditText"
+        android:hint="Введите название"
+        android:inputType="text"
+        />
+    <RelativeLayout
+        android:id="@+id/Rel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NameEditText"
+        android:layout_marginTop="20sp">
+
+        <TextView
+            android:id="@+id/T1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_when"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-medium"/>
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_marginTop="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_below="@id/T1"
+            android:checked="false"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_toRightOf="@id/checkbox1"
+            android:layout_below="@id/T1"
+            android:text="@string/stop_t1"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_marginTop="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_below="@id/checkbox1"
+            />
+        <TextView
+            android:id="@+id/T2"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_toRightOf="@id/checkbox1"
+            android:layout_below="@id/checkbox1"
+            android:text="@string/stop_t2"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/TimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_toRightOf="@id/T2"
+            android:layout_below="@id/checkbox1"
+            android:layout_marginLeft="10sp"
+            android:text="00:05:00"
+            android:gravity="center"
+            android:textColor="#0000ff "/>
+
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_marginTop="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_below="@id/checkbox2"
+            />
+        <TextView
+            android:id="@+id/T3"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_toRightOf="@id/checkbox3"
+            android:layout_below="@id/checkbox2"
+            android:text="@string/stop_t3"
+            android:gravity="center"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/EditTextQuantity"
+            android:layout_width="70sp"
+            android:layout_marginLeft="10sp"
+            android:layout_height="40sp"
+            android:layout_marginTop="10sp"
+            android:layout_toRightOf="@id/T3"
+            android:layout_below="@id/checkbox2"
+            android:inputType="number"
+            android:maxLines="1"
+            android:gravity="center"
+            android:textColor="#000"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/TextViewSave"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/Rel2"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_fiol"
+        android:text="@string/save"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#ffffff"
+        />
+</RelativeLayout>

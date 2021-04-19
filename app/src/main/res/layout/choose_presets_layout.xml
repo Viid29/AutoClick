@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20sp">
+    <TextView
+        android:id="@+id/NewPresetsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginRight="25sp"
+        android:background="@drawable/round_fiol"
+        android:text="@string/new_preset"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#ffffff"
+        />
+    <RelativeLayout
+        android:id="@+id/Rel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/NewPresetsTextView"
+        android:layout_marginTop="10sp"
+        >
+        <TextView
+            android:id="@+id/Or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:layout_centerInParent="true"
+            android:textColor="#000"
+            />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_toRightOf="@id/Or"
+        android:background="#000"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10sp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_toLeftOf="@id/Or"
+            android:background="#000"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10sp"
+            />
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_below="@id/Rel1"
+        android:id="@+id/recyclerview1"
+        />
+
+</RelativeLayout>
